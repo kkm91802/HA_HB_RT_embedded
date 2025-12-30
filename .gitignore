@@ -53,3 +53,14 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Ignore build artifacts
+build/
+
+# Ignore internal metadata
+**/_metadata/
+
+# OS / IDE
+.vscode/
+.idea/
+*.swp

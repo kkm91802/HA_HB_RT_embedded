@@ -1,0 +1,22 @@
+# Default: normalize text files to LF
+* text=auto eol=lf
+
+# Source code
+*.c   text eol=lf
+*.h   text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+
+# Scripts
+*.sh  text eol=lf
+*.py  text eol=lf
+
+# Config / build
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf
+
+# Binary files
+*.pdf binary
+*.png binary
+*.jpg binary
+*.csv binary
